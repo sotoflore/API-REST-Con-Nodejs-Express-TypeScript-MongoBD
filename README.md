@@ -10,18 +10,39 @@ Este proyecto es una API RESTful desarrollada con **Node.js**, **Express**, **Ty
 - **MongoDB** como base de datos NoSQL.
 - Soporte para **JWT (JSON Web Token)** para la autenticación y protección de rutas.
 
-## Requisitos Previos
-
-Antes de comenzar, asegúrate de tener instalados los siguientes programas:
-
-- [Node.js](https://nodejs.org/en/) (v14 o superior)
-- [MongoDB](https://www.mongodb.com/) (instalado o acceso a MongoDB Atlas)
-- [Git](https://git-scm.com/)
-
 ## Instalación
 
 Sigue estos pasos para clonar y ejecutar el proyecto:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/API-REST-Con-Nodejs-Express-TypeScript-MongoDB.git
+   https://github.com/sotoflore/API-REST-Con-Nodejs-Express-TypeScript-MongoBD.git
+   ```
+2. Entra en el directorio del proyecto:
+
+   ```bash
+   cd API-REST-Con-Nodejs-Express-TypeScript-MongoDB
+   ```
+3. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+3. Crea un archivo .env en la raíz del proyecto y añade las siguientes variables:
+
+   ```bash
+   PORT=5000
+   MONGODB_URI=mongodb://localhost:27017/mi_base_de_datos
+   JWT_SECRET=tu_secreto_jwt
+   ```
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+   Visita **`http://localhost:5000`** en tu navegador o herramienta como Postman para interactuar con la API.
+
+## Scripts Disponibles
+- **`npm run build`**: Compila el proyecto de TypeScript a JavaScript.
+- **`npm run dev`**: Inicia el servidor en modo de desarrollo utilizando nodemon.
+- **`npm start`**: Inicia el servidor en modo producción.
