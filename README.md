@@ -16,7 +16,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto:
 
 1. Clona este repositorio:
    ```bash
-   https://github.com/sotoflore/API-REST-Con-Nodejs-Express-TypeScript-MongoBD.git
+   git clone https://github.com/sotoflore/API-REST-Con-Nodejs-Express-TypeScript-MongoBD.git
    ```
 2. Entra en el directorio del proyecto:
 
